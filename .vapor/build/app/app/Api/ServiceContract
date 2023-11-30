@@ -7,7 +7,6 @@ Repositories
     CarouselRepository
 
 Management
-    ProductManagement (???)
     CarouselManagement (Prendi prodotti da Carosello)
 
 Relations
