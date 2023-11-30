@@ -1,0 +1,15 @@
+Data Objects
+    Product (*sku, name, designer, price)
+    Carousel (*id)
+
+Repositories
+    ProductRepository
+    CarouselRepository
+
+Management
+    ProductManagement (???)
+    CarouselManagement (Prendi prodotti da Carosello)
+
+Relations
+    Carousel -> Product (1 to Many)
+    Product -> Carousel (Belongs to)
