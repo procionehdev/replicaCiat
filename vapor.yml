@@ -1,0 +1,12 @@
+id: 55022
+name: replicaCiat
+environments:
+  production:
+    memory: 1024
+    cli-memory: 512
+    runtime: 'php-8.2:al2'
+    database: replicaCiat
+    build:
+      - 'composer install --no-dev --ignore-platform-req=ext-fileinfo'
+      - 'php artisan event:cache'
+      # - 'npm ci && npm run build && rm -rf node_modules'
